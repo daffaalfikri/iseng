@@ -1,7 +1,7 @@
 import pickle
 import streamlit as st
 
-model = pickle.load(open('Income.sav', 'rb'))
+model = pickle.load(open('Incomee.sav', 'rb'))
 
 st.title('Estimasi Income')
 
